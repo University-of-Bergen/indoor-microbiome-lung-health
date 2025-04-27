@@ -1,8 +1,8 @@
 # indoor-microbiome-lung-health
 
-## Background ##  Sex is a significant factor in respiratory disease epidemiology. However, how men and women differ in their responses to indoor airborne bacterial exposure remains unclear.
+Background:  Sex is a significant factor in respiratory disease epidemiology. However, how men and women differ in their responses to indoor airborne bacterial exposure remains unclear.
 
-## Objective ## To investigate the association between indoor airborne bacterial exposure and lung function and airway inflammation in adults, with a focus on sex-specific differences.
+Objective: To investigate the association between indoor airborne bacterial exposure and lung function and airway inflammation in adults, with a focus on sex-specific differences.
 
 Methods: In this cross-sectional study, airborne dust samples were collected from the bedrooms of 1,038 adult participants (463 men and 575 women) across five Nordic cities participating in the European Community Respiratory Health Survey (ECRHS) III. Bacterial communities were characterized using 16S rRNA amplicon sequencing. Bacterial load and endotoxin levels were quantified by quantitative PCR (qPCR) and the Limulus amebocyte lysate (LAL) assay, respectively. Multivariate linear regression models, stratified by sex, were used to assess associations between bacterial exposures, lung function, and airway inflammation.
 
