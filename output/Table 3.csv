@@ -1,0 +1,5 @@
+ ,Male_R,Male_P_value,Female_R,Female_P_value
+FEV1 Z-score,-0.002,0.53,0.008,0.37
+FVC Z-score,0.001,0.47,0.0002,0.48
+FEV1: FVC Z-score,-0.05,0.97,0.06,0.01
+FeNO,0.02,0.23,0.07,0.007
