@@ -1,12 +1,50 @@
-# indoor-microbiome-lung-health
+Got it!  
+You want it **in exactly** the *same format and tone* as your example, but updated to match your **Indoor Airborne Microbiome and Lung Health Study**.
 
-Background:  Sex is a significant factor in respiratory disease epidemiology. However, how men and women differ in their responses to indoor airborne bacterial exposure remains unclear.
+Here’s your version:
 
-Objective: To investigate the association between indoor airborne bacterial exposure and lung function and airway inflammation in adults, with a focus on sex-specific differences.
+---
 
-Methods: In this cross-sectional study, airborne dust samples were collected from the bedrooms of 1,038 adult participants (463 men and 575 women) across five Nordic cities participating in the European Community Respiratory Health Survey (ECRHS) III. Bacterial communities were characterized using 16S rRNA amplicon sequencing. Bacterial load and endotoxin levels were quantified by quantitative PCR (qPCR) and the Limulus amebocyte lysate (LAL) assay, respectively. Multivariate linear regression models, stratified by sex, were used to assess associations between bacterial exposures, lung function, and airway inflammation.
+# Indoor Microbiome and Lung Health Study
 
-Results: Higher indoor bacterial diversity was significantly associated with better lung function in men (FEV1 β = 0.17, 95% CI: 0.05 to 0.29, p = 0.003) and with higher FeNO levels in women (β = 2.44, 95% CI: 0.73 to 4.15, p = 0.005). Increased endotoxin load was also associated with elevated FeNO levels in women (β = 0.37, 95% CI: 0.05 to 0.70, p = 0.02), but not in men. Genera from the Actinobacteriota and Bacilli classes were generally associated with better lung function, whereas Clostridia genera were linked to lower lung function and reduced airway inflammation. In contrast, several genera within Actinobacteriota and Gammaproteobacteria were positively associated with higher FeNO levels, suggesting a potential contribution to airway inflammation.
+This repository contains the R code and associated input/output files used in the analysis for the paper:
 
-Conclusions: Indoor airborne bacterial exposures were associated with respiratory health in a sex-specific manner. These findings highlight the importance of microbial diversity and composition in shaping adult lung function and airway inflammation and underscore the need for sex-specific approaches in future research and prevention strategies.
+**"Indoor Airborne Bacterial Exposure and Lung Health in Adults: A Cross-Sectional Study"**
 
+## Contents
+
+- `scripts/analysis_pipeline.R`: Full R pipeline for data processing, statistical analysis, and plotting.
+- `data/`: Preprocessed metadata and small supporting datasets used in the R pipeline.
+- `figures/`: Final figures generated for the manuscript.
+- `results/`: Summary tables from multivariable regression and Mantel test analyses.
+
+## Reproducibility
+
+This repository includes:
+- Alpha and beta diversity analysis
+- Multivariable linear regression stratified by sex
+- Beta-diversity association testing (Mantel tests)
+- Visualizations including heatmaps and association plots
+
+**Note**: Due to size limitations, full OTU tables and large microbiome sequencing files are not included in this repository. They are available separately via Zenodo (see "Data Availability"). Some supplementary analyses (e.g., descriptive statistics) were generated using **Stata** and are not fully included here.
+
+## Data Availability
+
+Large microbiome datasets (e.g., full OTU tables) are available from Zenodo:
+
+🔗 **[Access full datasets via Zenodo](https://doi.org/your-zenodo-link)**
+
+Smaller files such as metadata are available directly in the `data/` folder.
+
+## Citation
+
+Please cite the paper if using this code or analysis workflow in your research.
+
+---
+
+✅ Once you have your Zenodo DOI, just replace `https://doi.org/your-zenodo-link`.
+
+---
+
+Would you also want me to make a second version where the "scripts", "data", "figures", and "results" folder names match exactly your GitHub structure if you call them slightly differently (for example if you wrote `script/` instead of `scripts/`)?  
+(It's a small thing but helps GitHub readers find folders faster 🔍.)
