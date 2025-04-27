@@ -1,50 +1,41 @@
-Got it!  
-You want it **in exactly** the *same format and tone* as your example, but updated to match your **Indoor Airborne Microbiome and Lung Health Study**.
-
-Here’s your version:
-
----
-
-# Indoor Microbiome and Lung Health Study
-
+Indoor Microbiome and Lung Health Study
 This repository contains the R code and associated input/output files used in the analysis for the paper:
 
-**"Indoor Airborne Bacterial Exposure and Lung Health in Adults: A Cross-Sectional Study"**
+"Indoor Airborne Bacterial Exposure and Lung Health in Adults: A Cross-Sectional Study"
 
-## Contents
+Contents
+scripts/: Full R pipeline for data processing, analysis, and figure generation.
 
-- `scripts/analysis_pipeline.R`: Full R pipeline for data processing, statistical analysis, and plotting.
-- `data/`: Preprocessed metadata and small supporting datasets used in the R pipeline.
-- `figures/`: Final figures generated for the manuscript.
-- `results/`: Summary tables from multivariable regression and Mantel test analyses.
+data/: Participant metadata and small supporting datasets.
 
-## Reproducibility
+figures/: Final plots and heatmaps generated for the manuscript.
 
+results/: Output tables from multivariable models and Mantel tests.
+
+Reproducibility
 This repository includes:
-- Alpha and beta diversity analysis
-- Multivariable linear regression stratified by sex
-- Beta-diversity association testing (Mantel tests)
-- Visualizations including heatmaps and association plots
 
-**Note**: Due to size limitations, full OTU tables and large microbiome sequencing files are not included in this repository. They are available separately via Zenodo (see "Data Availability"). Some supplementary analyses (e.g., descriptive statistics) were generated using **Stata** and are not fully included here.
+Bacterial diversity and load analysis (Shannon diversity, qPCR, endotoxin)
 
-## Data Availability
+CLR transformation and scaling by interquartile range (IQR)
 
-Large microbiome datasets (e.g., full OTU tables) are available from Zenodo:
+Multivariable linear regression models stratified by sex
 
-🔗 **[Access full datasets via Zenodo](https://doi.org/your-zenodo-link)**
+Beta-diversity association testing (Mantel tests)
 
-Smaller files such as metadata are available directly in the `data/` folder.
+Visualizations including heatmaps and association plots
 
-## Citation
+Note: Large microbiome data files (e.g., full OTU tables) were too large to upload to GitHub and are available separately through Zenodo. See "Data Availability" below.
 
-Please cite the paper if using this code or analysis workflow in your research.
+Data Availability
+Large microbiome datasets are available from Zenodo:
 
----
+🔗 Access full datasets via Zenodo
 
-✅ Once you have your Zenodo DOI, just replace `https://doi.org/your-zenodo-link`.
+Small files such as metadata are provided directly in the data/ folder.
 
----
+Citation
+Please cite the paper if using this code or analysis workflow in your research:
 
-Would you also want me to make a second version where the "scripts", "data", "figures", and "results" folder names match exactly your GitHub structure if you call them slightly differently (for example if you wrote `script/` instead of `scripts/`)?  
-(It's a small thing but helps GitHub readers find folders faster 🔍.)
+Indoor Airborne Bacterial Exposure and Lung Health in Adults: A Cross-Sectional Study
+Author names, Year.
