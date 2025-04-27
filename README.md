@@ -21,11 +21,10 @@ This repository includes:
 
 ## Data Availability
 
-Large microbiome datasets (e.g., full OTU tables) are available from Zenodo:
+The data used in this study is available through Zenodo:
+👉 https://doi.org/10.5281/zenodo.15292469
 
-🔗 **[Access full datasets via Zenodo](https://doi.org/your-zenodo-link)**
-
-Smaller files such as metadata are available directly in the `data/` folder.
+It includes sample metadata, taxonomy tables, and genus-level relative abundance data for indoor airborne bacterial exposure and lung function analysis.
 
 ## Citation
 
