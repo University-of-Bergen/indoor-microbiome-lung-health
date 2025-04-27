@@ -24,7 +24,7 @@ This repository includes:
 The data used in this study is available through Zenodo:
 👉 https://doi.org/10.5281/zenodo.15292469
 
-It includes sample metadata, taxonomy tables, and genus-level relative abundance data for indoor airborne bacterial exposure and lung function analysis.
+It includes sample metadata, OTUs table,taxonomy tables, and genus-level relative abundance data for indoor airborne bacterial exposure and lung function analysis.
 
 ## Citation
 
