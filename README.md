@@ -20,9 +20,8 @@ This repository includes:
 - Visualizations including heatmaps and association plots
 
 ## Data Availability
-
 The data used in this study is available through Zenodo:
-👉 https://doi.org/10.5281/zenodo.15292469
+👉 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15292469.svg)](https://doi.org/10.5281/zenodo.15292469)
 
 It includes sample metadata, OTUs table,taxonomy tables, and genus-level relative abundance data for indoor airborne bacterial exposure and lung function analysis.
 
